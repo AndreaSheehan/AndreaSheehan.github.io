@@ -1,3 +1,83 @@
-body {
-	background: blue;
+
+@media only screen and (max-width: 550px) {
+    body {
+        background-color: lightblue;
+    	font-size: x-small
 }
+
+
+#intro {
+    width: 55%;
+    height: auto;
+    padding: 10px 15px;
+    margin-left: 4%;
+    font-size: small;
+}
+
+h1 {
+    width: 50%;
+    height: auto;
+    background: #9cf;
+    padding: 10px 15px 10px 0;
+    width: 50%;
+    border: 5px groove;
+    text-align: center;
+    margin-left: 4%;
+}
+
+h1.jump {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+}
+
+ul.reasons {
+    list-style-type: square;
+}
+
+img.displayed {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2,h3 {
+    width: 50%;
+    height: auto;
+    background: #9cf;
+    padding: 1px 5px 1px 55px;
+    border: .5px groove;
+    width: 50%;
+    margin-left: 4%;
+}
+
+h6 {
+    font-style: italic;
+    font-size: x-small;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: x-small;
+}
+
+ol {
+    width: 55%;
+    height: auto;
+    padding: 10px 15px;
+    margin-left: 4%;
+    font-size: small;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
